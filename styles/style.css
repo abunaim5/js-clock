@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock-container{
+    background-image: url(../images/city-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    width: 28rem;
+    height: 28rem;
+    border: 15px solid whitesmoke;
+    border-radius: 50%;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.clock-face{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: translateY(188px);
+
+}
+
+.hand{
+    width: 50%;
+    height: 8px;
+    background-color: tomato;
+    position: absolute;
+
+}
